@@ -38,6 +38,8 @@ body {
 #About {
   display: flex;
   justify-content: space-evenly;
+  background: #14213d;
+  color: whitesmoke ;
 }
 
 #personalc {
