@@ -13,3 +13,13 @@
 #Home-Text {
   font-size: 50px;
 }
+
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-element {
+  padding-left: 3em;
+  list-style-type: none;
+}
