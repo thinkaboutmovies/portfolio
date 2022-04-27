@@ -1,10 +1,10 @@
 import React from 'react';
-import personalc from '/Users/brianyoon/sei/projects/thinkaboutmovies.github.io/src/personalbwc.jpeg';
+import personalbwc from '/Users/brianyoon/sei/projects/thinkaboutmovies.github.io/src/images/personalbwc.jpeg';
 
 function About(props) {
     return (
 			<div id='About'>
-				<img id='personalc' src={personalc} alt='' />
+				<img id='personalbwc' src={personalbwc} alt='' />
 				<div id='About-Text'>
 					<h1>
 						<u>About Me</u>
@@ -19,7 +19,6 @@ function About(props) {
 						<br />
 						tunneling down on high priority problems in ambiguous situations.
 					</h2>
-					<h2></h2>
 				</div>
 			</div>
 		);
