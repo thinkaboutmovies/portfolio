@@ -5,7 +5,10 @@ function About(props) {
     return (
 			<div id='About'>
 				<img src={personalc} alt='' />
-                <h2>hello ther is a </h2>
+                <div id='About-Text'>
+                    <h1><u>About Me</u></h1>
+                    <h2></h2>
+                </div>
 			</div>
 		);
 }

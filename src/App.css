@@ -31,3 +31,7 @@
   padding-left: 3em;
 }
 
+#About {
+  display: flex;
+  justify-content: space-evenly;
+}
