@@ -1,11 +1,18 @@
+* {
+  box-sizing: border-box;
+  background: #fca311;
+  color: #14213d;
+}
+
 #Home {
   /* background-image: url('/Users/brianyoon/sei/projects/thinkaboutmovies.github.io/src/background.jpeg'); */
-  background: ;
+  /* background: #fca311; */
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
   color: grey;
   /* display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center; */
 }
@@ -17,9 +24,9 @@
 .nav {
   display: flex;
   justify-content: center;
+  list-style-type: none;
 }
 
 .nav-element {
   padding-left: 3em;
-  list-style-type: none;
 }
