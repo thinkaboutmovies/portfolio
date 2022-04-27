@@ -1,5 +1,5 @@
 import React from 'react';
-// import background from '/Users/brianyoon/sei/projects/thinkaboutmovies.github.io/src/background.jpeg';
+
 
 function Home(props) {
     return (

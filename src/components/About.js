@@ -1,5 +1,5 @@
 import React from 'react';
-import personalbwc from '/Users/brianyoon/sei/projects/thinkaboutmovies.github.io/src/images/personalbwc.jpeg';
+import personalbwc from '/Users/brianyoon/sei/projects/portfolio/src/images/personalbwc.jpeg';
 
 function About(props) {
     return (
