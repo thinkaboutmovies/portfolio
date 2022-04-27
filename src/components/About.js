@@ -1,14 +1,26 @@
 import React from 'react';
-import personalc from '/Users/brianyoon/sei/projects/thinkaboutmovies.github.io/src/personalc.jpeg';
+import personalc from '/Users/brianyoon/sei/projects/thinkaboutmovies.github.io/src/personalbwc.jpeg';
 
 function About(props) {
     return (
 			<div id='About'>
-				<img src={personalc} alt='' />
-                <div id='About-Text'>
-                    <h1><u>About Me</u></h1>
-                    <h2></h2>
-                </div>
+				<img id='personalc' src={personalc} alt='' />
+				<div id='About-Text'>
+					<h1>
+						<u>About Me</u>
+					</h1>
+					<h2>
+						Full-stack web developer who loves NFTs and web3 technologies.
+						<br />
+						<br />
+						My experience exploring the web3 landscape guides me in everything
+						that I do: <br />
+						making decisions in fast-paced development environments and
+						<br />
+						tunneling down on high priority problems in ambiguous situations.
+					</h2>
+					<h2></h2>
+				</div>
 			</div>
 		);
 }

@@ -13,8 +13,8 @@ function Home(props) {
                 <li class='nav-element'><a href="#Resume">Resume</a></li>
             </ul>
 				<div id='Home-Text'>
-					<h1>Hello, I'm Brian Yoon</h1>
-					<h3>and this is my Portfolio</h3>
+					<p>Hello, I'm <span class='bold-text'>Brian Yoon</span> </p>
+					<p>and this is my Portfolio</p>
 				</div>
 			</div>
 		);
