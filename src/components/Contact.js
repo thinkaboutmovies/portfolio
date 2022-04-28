@@ -1,7 +1,7 @@
 import React from 'react';
-import GithubIcon from '/Users/brianyoon/sei/projects/portfolio/src/images/GitHub-Mark-64px.png';
-import LinkedinIcon from '/Users/brianyoon/sei/projects/portfolio/src/images/linkedin.png';
-import Envelope from '/Users/brianyoon/sei/projects/portfolio/src/images/envelope.png';
+import GithubIcon from '../images/GitHub-Mark-64px.png';
+import LinkedinIcon from '../images/linkedin.png';
+import Envelope from '../images/envelope.png';
 
 function Contact(props) {
     return (
