@@ -7,10 +7,10 @@ function Contact(props) {
     return (
 			<div id='Contact'>
 				{/* linkedin, github, email */}
-				<a href='https://www.linkedin.com/in/brian-yoon-gm/' target='_blank'>
+				<a href='https://www.linkedin.com/in/brian-yoon-gm/' target='_blank' rel="noreferrer>
 					<img src={LinkedinIcon} alt='' />
 				</a>
-				<a href='https://github.com/thinkaboutmovies' target='_blank'>
+				<a href='https://github.com/thinkaboutmovies' target='_blank' rel="noreferrer>
 					<img src={GithubIcon} alt='' />
 				</a>
 				<a href='mailto:byoonweb3@example.com'>
