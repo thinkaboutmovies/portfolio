@@ -1,5 +1,6 @@
 import React from 'react';
-import personalbwc from '../personalbwc.jpeg';
+// import personalbwc from '../personalbwc.jpeg';
+import personalbwc from '../images/personalbwc.jpeg';
 
 function About(props) {
     return (
