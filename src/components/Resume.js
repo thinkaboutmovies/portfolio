@@ -1,9 +1,10 @@
 import React from 'react';
+import resume from '../images/Resume.pdf';
 
 function Resume(props) {
     return (
         <div id='Resume'>
-            Resume Component
+            <a href={resume}>Resume PDF</a>
         </div>
     );
 }
