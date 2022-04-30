@@ -3,13 +3,42 @@ import React from 'react';
 function Skills(props) {
     return (
         <div id='Skills'>
-          Skills Component
-          <section>
-              
-          </section>
-            <article>
-
+          <h2>Skills Component</h2>
+          <section class='Skills-Card-List'>
+            <article id='languages'>
+                <h4>Languages</h4>
+                <ul>
+                    <li>HTML/CSS</li>
+                    <li>Javascript</li>
+                    <li>Python</li>
+                    <li>SQL</li>
+                </ul>
             </article>
+            <article id='libraries-and-frameworks'>
+                <h4>Libraries and Frameworks</h4>
+                <ul>
+                    <li>jQuery</li>
+                    <li>React.js</li>
+                    <li>Node.js</li>
+                    <li>Mongoose</li>
+                    <li>Express</li>
+                    <li>Django</li>
+                </ul>
+            </article>
+            <article id='other-skills'>
+                <h4>Other Skills</h4>
+                <ul>
+                    <li>Netlify</li>
+                    <li>Slack</li>
+                    <li>Zoom</li>
+                    <li>Twitter</li>
+                    <li>Discord</li>
+                    <li>Metamask</li>
+                    <li>Opensea</li>
+                </ul>
+            </article>
+          </section>
+
         </div>
     );
 }
@@ -20,7 +49,7 @@ export default Skills;
 /* 
 
 Skills
-
+<li></li>
 Languages:
 HTML
 CSS
@@ -38,6 +67,7 @@ Django
 
 
 Other:
+Netlify
 Slack
 Zoom
 Discord
@@ -46,6 +76,7 @@ Metamask
 Uniswap
 Opensea
 Dapps
+
 
 
 */
