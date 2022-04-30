@@ -1,5 +1,5 @@
 import React from 'react';
-
+import resume from '../images/Resume.pdf';
 
 function Home(props) {
     return (
@@ -10,7 +10,7 @@ function Home(props) {
                 <li class='nav-element'><a href="#Skills">Skills</a></li>
                 <li class='nav-element'><a href="#Contact">Contact Info</a></li>
                 <li class='nav-element'><a href="#Projects">Projects</a></li>
-                <li class='nav-element'><a href="#Resume">Resume</a></li>
+                <li class='nav-element'><a href={resume}>Resume PDF</a></li>
             </ul>
 				<div id='Home-Text'>
 					<p>Hello, I'm <span class='bold-text'>Brian Yoon</span> </p>
