@@ -8,28 +8,28 @@ function Projects(props) {
     return (
         <div id='Projects'>
             <h2>Projects</h2>
-            <div id='Projects-Card-List'>
-                <div id='Rotating-Art-Gallery-Card'>
+            <section id='Projects-Card-List'>
+                <article id='Rotating-Art-Gallery-Card'>
                     <img src={RotatingArtGalleryScreenShot} alt=''/>
                     <h3>Rotating Art Gallery</h3>
                     <p>Dynamically view your NFTs as a rotating artshow.</p>
-                </div>
-                <div id='Pomodoro-App-Card'>
+                </article>
+                <article id='Pomodoro-App-Card'>
                     <img src={PomodoroAppScreenShot} alt=''/>
                     <h3>Pomodoro App</h3>
                     <p>Set timers and track study and break sessions using time intervals. </p>
-                </div>
-                <div id='Coin-Pouch-Card'>
+                </article>
+                <article id='Coin-Pouch-Card'>
                     <img src={CoinPouchScreenShot} alt=''/>
                     <h3>Coin Pouch</h3>
                     <p>How much does ETH does this NFT person have in their wallet?</p>
-                </div>
-                <div id='Dinosaur-Pet-Card'>
+                </article>
+                <article id='Dinosaur-Pet-Card'>
                     <img src={DinosaurPetsScreenShot} alt=''/>
                     <h3>Dinosaur Pet</h3>
                     <p>Raise your own dinosaur to have a happy life.</p>
-                </div>
-            </div>
+                </article>
+            </section>
         </div>
     );
 }
