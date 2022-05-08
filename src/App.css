@@ -5,9 +5,9 @@ body {
 }
 
 #Home {
-  /* background-image: url('/Users/brianyoon/sei/projects/thinkaboutmovies.github.io/src/background.jpeg'); */
+
   /* background: #fca311; */
-  height: 100vh;
+  height: 40vh;
   background-size: cover;
   background-repeat: no-repeat;
   /* display: flex;
@@ -18,6 +18,7 @@ body {
 
 #Home-Text {
   font-size: 50px;
+  padding-left: 2.5rem;
 }
 
 .bold-text{
@@ -36,6 +37,7 @@ body {
 }
 
 #About {
+  height: 60vh;
   display: flex;
   justify-content: space-evenly;
   background: #14213d;
