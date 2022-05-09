@@ -1,6 +1,6 @@
 import React from 'react';
-// import personalbwc from '../personalbwc.jpeg';
 import personalbwc from '../images/personalbwc.jpeg';
+import Contact from './Contact.js';
 
 function About(props) {
     return (
@@ -20,6 +20,7 @@ function About(props) {
 						<br />
 						tunneling down on high priority problems in ambiguous situations.
 					</h2>
+					<Contact></Contact>
 				</div>
 			</div>
 		);
