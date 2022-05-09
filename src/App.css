@@ -55,11 +55,14 @@ body {
   align-items: center;
 }
 
-#Contact img {
-  background-color: whitesmoke;
-  padding: 0.5rem;
+#Contact {
+  background-color: white;
+  color: black;
 }
 
+#Contact img {
+  padding: 0.5rem;
+}
 /* Skills */
 
 #Skills {

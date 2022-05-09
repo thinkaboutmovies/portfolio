@@ -7,6 +7,7 @@ function Contact(props) {
     return (
 			<div id='Contact'>
 				{/* linkedin, github, email */}
+				<h2>Contact Me</h2>
 				<a href='https://www.linkedin.com/in/brian-yoon-gm/' target='_blank' rel="noreferrer">
 					<img src={LinkedinIcon} alt='' />
 				</a>
