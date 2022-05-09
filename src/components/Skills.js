@@ -3,7 +3,7 @@ import React from 'react';
 function Skills(props) {
     return (
 			<div id='Skills'>
-				<h2>Skills Component</h2>
+				<h2>Skills</h2>
 				<section class='Skills-Card-List'>
 					<article id='languages'>
 						<h4>Languages/Libraries/Frameworks</h4>

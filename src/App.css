@@ -54,6 +54,10 @@ body {
   align-items: center;
 }
 
+#Contact img {
+  background-color: whitesmoke;
+  padding: 0.5rem;
+}
 
 #Skills {
   display: flex;
