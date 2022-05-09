@@ -36,6 +36,7 @@ body {
   padding-left: 3em;
 }
 
+/* About */
 #About {
   height: 60vh;
   display: flex;
@@ -59,6 +60,8 @@ body {
   padding: 0.5rem;
 }
 
+/* Skills */
+
 #Skills {
   display: flex;
   flex-direction: column;
@@ -71,4 +74,20 @@ body {
 
 #Skills article {
   padding: 0 2em;
+}
+
+/* Projects */
+
+#Projects-Card-List {
+  display: flex;
+  /* width: 100vh; */
+}
+
+#Projects article {
+  padding-left: 2rem;
+}
+
+#Projects img{
+  height: 250px;
+  /* width: 40%; */
 }
