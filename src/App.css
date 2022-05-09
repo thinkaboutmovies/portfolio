@@ -63,9 +63,8 @@ body {
 
 .Skills-Card-List {
   display: flex;
-  /* padding: 2em; */
 }
 
 #Skills article {
-  padding: 2em
+  padding: 0 2em;
 }
