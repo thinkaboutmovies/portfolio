@@ -21,7 +21,7 @@ body {
   padding-left: 2.5rem;
 }
 
-.bold-text{
+.bold-text {
   font-size: 100px;
   font-weight: bold;
 }
@@ -34,6 +34,11 @@ body {
 
 .nav-element {
   padding-left: 3em;
+
+}
+
+.nav-element a {
+  color: #14213d;
 }
 
 /* About */
@@ -58,11 +63,13 @@ body {
 #Contact {
   background-color: white;
   color: black;
+  text-align: center;
 }
 
 #Contact img {
   padding: 0.5rem;
 }
+
 /* Skills */
 
 #Skills {

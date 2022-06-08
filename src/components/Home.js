@@ -5,7 +5,7 @@ function Home(props) {
     return (
 		<div id='Home' >
             <ul class='nav'>
-                <li class='nav-element'><a href="#Home">Home</a></li>
+                <li class='nav-element'><a href="#Home" color="white" >Home</a></li>
                 <li class='nav-element'> <a href="#About">About Me</a> </li>
                 <li class='nav-element'><a href="#Skills">Skills</a></li>
                 <li class='nav-element'><a href="#Contact">Contact Info</a></li>
