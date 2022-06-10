@@ -9,9 +9,9 @@ function Projects(props) {
 			<div id='Projects'>
 				<h2>Projects</h2>
 				<section id='Projects-Card-List'>
-					<article id='Rotating-Art-Gallery-Card'>
+					<article class='Project-Card' id='Rotating-Art-Gallery-Card'>
 						<a
-							href='https://github.com/thinkaboutmovies/rotating-art-gallery'
+							href='https://rotating-art-gallery.netlify.app'
 							target='_blank'
 							rel='noreferrer'>
 							<img src={RotatingArtGalleryScreenShot} alt='' />
@@ -24,9 +24,9 @@ function Projects(props) {
 							and Flexbox
 						</p>
 					</article>
-					<article id='Pomodoro-App-Card'>
+					<article class='Project-Card' id='Pomodoro-App-Card'>
 						<a
-							href='https://github.com/Team-Clippers/Pomodoro-Frontend'
+							href='https://pomodoro176.netlify.app/'
 							target='_blank'
 							rel='noreferrer'>
 							<img src={PomodoroAppScreenShot} alt='' />
@@ -39,9 +39,9 @@ function Projects(props) {
 						<h4>Tech Used</h4>
 						<p>React.js, Flexbox, Mongoose, Express, Node.js, and Cors</p>
 					</article>
-					<article id='Coin-Pouch-Card'>
+					<article class='Project-Card' id='Coin-Pouch-Card'>
 						<a
-							href='https://github.com/thinkaboutmovies/coin-pouch'
+							href='https://coinpouch.netlify.app'
 							target='_blank'
 							rel='noreferrer'>
 							<img src={CoinPouchScreenShot} alt='' />
@@ -51,9 +51,9 @@ function Projects(props) {
 						<h4>Tech Used</h4>
 						<p> React.js, Etherscan API, and CSS Grids</p>
 					</article>
-					<article id='Dinosaur-Pet-Card'>
+					<article class='Project-Card' id='Dinosaur-Pet-Card'>
 						<a
-							href='https://github.com/thinkaboutmovies/dinosaur-pets'
+							href='https://thinkaboutmovies.github.io/dinosaur-pets/'
 							target='_blank'
 							rel='noreferrer'>
 							<img src={DinosaurPetsScreenShot} alt='' />

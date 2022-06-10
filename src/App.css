@@ -92,8 +92,10 @@ body {
   /* width: 100vh; */
 }
 
-#Projects article {
-  padding-left: 2rem;
+.Project-Card {
+    margin-left: 2rem;
+    border-style: solid;
+    border-width: 3px;
 }
 
 #Projects img{
