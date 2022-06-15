@@ -34,6 +34,7 @@ body {
 }
 
 /* About */
+
 #About {
   /* trying to prevent text overlap into Skills component */
   /* height: 60vh; */
@@ -45,6 +46,7 @@ body {
 
 #personalbwc {
   border: 10px solid #14213d;
+  /* min-width: 20rem; */
 }
 
 #About-Text {
@@ -52,11 +54,12 @@ body {
   flex-direction: column;
   align-items: center;
   /* trying to prevent text overlap into Skills component */
-  font-size: 2vmin;
-  /* white-space: pre-wrap; */
-  white-space: nowrap;
+  /* font-size: 2vmin; */
+  /* white-space: nowrap; */
   
 }
+
+/* Contact */
 
 #Contact {
   background-color: white;
@@ -69,6 +72,7 @@ body {
 }
 
 /* Skills */
+
 #Skills {
   display: flex;
   flex-direction: column;
