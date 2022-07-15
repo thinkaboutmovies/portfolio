@@ -73,6 +73,10 @@ body {
 
 /* Skills */
 
+#Skills h2 {
+  font-size: 2em
+}
+
 #Skills {
   display: flex;
   flex-direction: column;
@@ -81,10 +85,15 @@ body {
 
 .Skills-Card-List {
   display: flex;
+  font-size: 1.5em
 }
 
 #Skills article {
   padding: 0 2em;
+}
+
+#Skills li {
+  padding-bottom: 0.5em;
 }
 
 /* Projects */
