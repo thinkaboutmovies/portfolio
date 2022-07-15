@@ -89,6 +89,11 @@ body {
 
 /* Projects */
 
+#Projects h2 {
+  padding: 1rem;
+  font-size: 2em
+}
+
 #Projects-Card-List {
   display: flex;
   /* width: 100vh; */
@@ -98,6 +103,10 @@ body {
     margin-left: 2rem;
     border-style: solid;
     border-width: 3px;
+    background-color: aliceblue;
+}
+.Project-Card-Text {
+  padding: 1rem
 }
 
 #Projects img{

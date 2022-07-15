@@ -16,13 +16,15 @@ function Projects(props) {
 							rel='noreferrer'>
 							<img src={RotatingArtGalleryScreenShot} alt='' />
 						</a>
-						<h3>Rotating Art Gallery</h3>
-						<p>Dynamically view your NFTs as a rotating artshow.</p>
-						<h4>Tech Used</h4>
-						<p>
-							React.js, Modulenft API, Framer Motion, Alice Carousel, CSS Grid,
-							and Flexbox
-						</p>
+						<div class='Project-Card-Text'>
+							<h3>Rotating Art Gallery</h3>
+							<p>Dynamically view your NFTs as a rotating artshow.</p>
+							<h4>Tech Used</h4>
+							<p>
+								React.js, Modulenft API, Framer Motion, Alice Carousel, CSS
+								Grid, and Flexbox
+							</p>
+						</div>
 					</article>
 					<article class='Project-Card' id='Pomodoro-App-Card'>
 						<a
@@ -31,13 +33,15 @@ function Projects(props) {
 							rel='noreferrer'>
 							<img src={PomodoroAppScreenShot} alt='' />
 						</a>
-						<h3>Pomodoro App</h3>
-						<p>
-							Set timers and track study and break sessions using time
-							intervals.
-						</p>
-						<h4>Tech Used</h4>
-						<p>React.js, Flexbox, Mongoose, Express, Node.js, and Cors</p>
+						<div class='Project-Card-Text'>
+							<h3>Pomodoro App</h3>
+							<p>
+								Set timers and track study and break sessions using time
+								intervals.
+							</p>
+							<h4>Tech Used</h4>
+							<p>React.js, Flexbox, Mongoose, Express, Node.js, and Cors</p>
+						</div>
 					</article>
 					<article class='Project-Card' id='Coin-Pouch-Card'>
 						<a
@@ -46,10 +50,14 @@ function Projects(props) {
 							rel='noreferrer'>
 							<img src={CoinPouchScreenShot} alt='' />
 						</a>
-						<h3>Coin Pouch</h3>
-						<p>How much does ETH does this NFT person have in their wallet?</p>
-						<h4>Tech Used</h4>
-						<p> React.js, Etherscan API, and CSS Grids</p>
+						<div class='Project-Card-Text'>
+							<h3>Coin Pouch</h3>
+							<p>
+								How much does ETH does this NFT person have in their wallet?
+							</p>
+							<h4>Tech Used</h4>
+							<p> React.js, Etherscan API, and CSS Grids</p>
+						</div>
 					</article>
 					<article class='Project-Card' id='Dinosaur-Pet-Card'>
 						<a
@@ -58,10 +66,12 @@ function Projects(props) {
 							rel='noreferrer'>
 							<img src={DinosaurPetsScreenShot} alt='' />
 						</a>
-						<h3>Dinosaur Pet</h3>
-						<p>Raise your own dinosaur to have a happy life.</p>
-						<h4>Tech Used</h4>
-						<p>Javascript, Jquery, HTML, CSS, Flexbox, and Bootstrap.</p>
+						<div class='Project-Card-Text'>
+							<h3>Dinosaur Pet</h3>
+							<p>Raise your own dinosaur to have a happy life.</p>
+							<h4>Tech Used</h4>
+							<p>Javascript, Jquery, HTML, CSS, Flexbox, and Bootstrap.</p>
+						</div>
 					</article>
 				</section>
 			</div>
